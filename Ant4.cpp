@@ -17,7 +17,7 @@
 
 
 #define START_NODE 0
-double RHO=0.5; //decay rate
+double RHO=0.4; //decay rate
 int N_GENERATIONS=50000;
 int ALPHA= 1;
 int BETA= 2;
@@ -205,9 +205,7 @@ void ddrdoobs()
 	Init();
 
 	
-	
-	//std::default_random_engine m_generator;
-	//std::uniform_int_distribution<int> distribution(0,num_cities);
+
 	
 		
 	
@@ -221,8 +219,7 @@ void ddrdoobs()
 		std::vector<double> strength(num_cities+1);
 		CreateInitialPhero(); 
 
-//			std::vector<double> strength(num_cities+1);
-		
+
     
 	
 

@@ -1,27 +1,40 @@
-﻿Build started 28/06/2014 00:41:36.
-     1>Project "C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\Ant4\Ant4.vcxproj" on node 2 (build target(s)).
+﻿Build started 04/07/2014 01:43:45.
+     1>Project "C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\ants4\Ant4.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "Release\Ant4.unsuccessfulbuild".
+         Creating "Release\Ant4.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Ant4.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Ant4.cpp
          Ant4.cpp
-     1>Ant4.cpp(58): warning C4101: 'city' : unreferenced local variable
-     1>Ant4.cpp(134): warning C4101: 'd' : unreferenced local variable
+     1>Ant4.cpp(87): warning C4018: '<' : signed/unsigned mismatch
+     1>Ant4.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+     1>Ant4.cpp(121): warning C4018: '<' : signed/unsigned mismatch
+     1>Ant4.cpp(203): warning C4101: 'd' : unreferenced local variable
+     1>Ant4.cpp(437): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Ant4.cpp(452): warning C4101: 'help' : unreferenced local variable
+     1>Ant4.cpp(465): warning C4018: '<' : signed/unsigned mismatch
+     1>Ant4.cpp(529): warning C4101: 'd' : unreferenced local variable
+     1>Ant4.cpp(736): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Ant4.cpp(737): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Ant4.cpp(742): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Ant4.cpp(743): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Ant4.cpp(744): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Ant4.cpp(745): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Ant4.cpp(750): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\Release\Ant4.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Ant4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\Release\Ant4.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\Release\Ant4.lib" /MACHINE:X86 Release\Ant4.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\ants4\Release\Ant4.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Ant4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\ants4\Release\Ant4.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\ants4\Release\Ant4.lib" /MACHINE:X86 Release\Ant4.obj
          Release\FileReader.obj
          Release\stdafx.obj
          Generating code
          Finished generating code
-         Ant4.vcxproj -> C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\Release\Ant4.exe
+         Ant4.vcxproj -> C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\ants4\Release\Ant4.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\Release\Ant4.exe;#1" /manifest Release\Ant4.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\ants4\Release\Ant4.exe;#1" /manifest Release\Ant4.exe.intermediate.manifest
        FinalizeBuildStatus:
          Deleting file "Release\Ant4.unsuccessfulbuild".
          Touching "Release\Ant4.lastbuildstate".
-     1>Done Building Project "C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\Ant4\Ant4.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\ants4\Ant4.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.96
+Time Elapsed 00:00:02.88
