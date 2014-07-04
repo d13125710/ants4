@@ -1,0 +1,18 @@
+﻿Build started 03/07/2014 00:26:04.
+     1>Project "C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\Ant4.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Ant4.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Ant4.vcxproj -> C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\Debug\Ant4.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Ant4.unsuccessfulbuild".
+         Touching "Debug\Ant4.lastbuildstate".
+     1>Done Building Project "C:\Users\gareth\Documents\Visual Studio 2010\Projects\Ant4\Ant4.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08
